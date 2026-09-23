@@ -14,8 +14,8 @@ int main()
     SetConsoleOutputCP(65001);
 
     int choice;
-    
-    // Тестовый комментарий
+   
+    // Тестовый комментарий !
     do
     {
         cout << "КАЛЬКУЛЯТОР\n";
