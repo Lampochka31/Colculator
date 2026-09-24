@@ -160,6 +160,8 @@ int main()
         default:
         {
             cout << "Такой операции нет\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
             break;
         }
